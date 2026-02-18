@@ -6,11 +6,12 @@ import { SkillsSection } from '@/components/sections/skills';
 import { ExperienceSection } from '@/components/sections/experience';
 import { ProjectsSection } from '@/components/sections/projects';
 import { EducationSection } from '@/components/sections/education';
-import { ContactSection } from '@/components/sections/contact';
+import { GetInTouchSection } from '@/components/sections/get-in-touch';
+import { BottomNav } from '@/components/sections/bottom-nav';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white pb-20 md:pb-0">
       <Navbar />
       <HeroSection />
       <AboutSection />
@@ -19,7 +20,8 @@ export default function Home() {
       <ExperienceSection />
       <ProjectsSection />
       <EducationSection />
-      <ContactSection />
+      <GetInTouchSection />
+      <BottomNav />
     </div>
   );
 }

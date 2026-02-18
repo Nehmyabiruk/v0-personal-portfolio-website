@@ -22,7 +22,7 @@ export function HeroSection() {
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Link
-                href={`mailto:${portfolio.personal.email}`}
+                href="#contact"
                 className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition inline-flex items-center justify-center"
               >
                 Get In Touch
@@ -67,12 +67,13 @@ export function HeroSection() {
             </div>
           </div>
 
-          <div className="hidden md:block">
-            <div className="relative w-full aspect-square bg-gradient-to-br from-blue-100 to-blue-50 rounded-2xl border-2 border-blue-200 flex items-center justify-center">
-              <div className="text-center">
-                <div className="text-6xl font-bold text-blue-600 mb-2">NB</div>
-                <p className="text-gray-600">Full-Stack & AI/ML Engineer</p>
-              </div>
+          <div className="hidden md:flex justify-center items-center">
+            <div className="relative w-96 h-96 rounded-2xl border-4 border-blue-600 overflow-hidden shadow-xl">
+              <img
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-02-18_08-14-47-nFDE7KeLiPxjRWhvlTlGrmzq3IpIZ7.jpg"
+                alt="Nehmya Biruk - Full-Stack Developer & AI/ML Engineer"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
