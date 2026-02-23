@@ -25,7 +25,7 @@ export function HeroSection() {
                 href="#contact"
                 className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition inline-flex items-center justify-center"
               >
-                Get In Touch
+                Let's Build Something Cool
               </Link>
               <a
                 href={portfolio.personal.github}
@@ -68,7 +68,7 @@ export function HeroSection() {
           </div>
 
           <div className="hidden md:flex justify-center items-center">
-            <div className="relative w-96 h-96 rounded-2xl border-4 border-white overflow-hidden shadow-xl">
+            <div className="relative w-96 h-96 rounded-2xl border-4 border-cyan-400 overflow-hidden shadow-xl">
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-02-18_08-14-47-nFDE7KeLiPxjRWhvlTlGrmzq3IpIZ7.jpg"
                 alt="Nehmya Biruk - Full-Stack Developer & AI/ML Engineer"
