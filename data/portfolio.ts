@@ -179,7 +179,7 @@ export const portfolio = {
       issuer: 'Generative AI Training Program',
       date: '2024',
       image: '/images/certificates/ai-mastermind.jpg',
-      link: 'https://drive.google.com/file/d/1wwYD5462HXUuoYOpm2JrMMchmxanHvL7/view?usp=drivesdk',
+      link: 'https://drive.google.com/file/d/1_MDK8B2XO3wQDuAQ72sgZaVT6UKWZmzt/view?usp=drives',
       skills: ['Generative AI', 'LLMs', 'Prompt Engineering', 'AI Applications'],
     },
   ],
