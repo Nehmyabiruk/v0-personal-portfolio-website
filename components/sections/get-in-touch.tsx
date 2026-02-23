@@ -102,7 +102,7 @@ export function GetInTouchSection() {
           {/* Contact Form */}
           <div className="bg-gray-50 p-8 rounded-xl">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Send a Message</h3>
-            
+
             {submitted ? (
               <div className="bg-green-50 border border-green-200 p-4 rounded-lg text-center">
                 <p className="text-green-800 font-medium">Thank you for your message! I'll get back to you within 24 hours.</p>
