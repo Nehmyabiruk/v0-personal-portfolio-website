@@ -33,9 +33,9 @@ export function GetInTouchSection() {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Get In Touch</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Let's Create Something Amazing! 🚀</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Ready to discuss your next full stack app or your AI/ML project? Let's connect and explore possibilities together
+            Got an idea that needs a genius full-stack touch? Or maybe you need some AI/ML magic? I'm your person! Let's chat and turn your vision into reality.
           </p>
         </div>
 
@@ -43,7 +43,8 @@ export function GetInTouchSection() {
           {/* Contact Info */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Let's Start a Conversation</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">💬 Let's Start a Conversation</h3>
+              <p className="text-gray-600 mb-6">Pick your favorite way to reach out and let's chat about bringing your project to life!</p>
             </div>
 
             {/* Email */}

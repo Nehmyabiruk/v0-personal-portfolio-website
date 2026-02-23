@@ -68,7 +68,7 @@ export function HeroSection() {
           </div>
 
           <div className="hidden md:flex justify-center items-center">
-            <div className="relative w-96 h-96 rounded-2xl border-4 border-blue-600 overflow-hidden shadow-xl">
+            <div className="relative w-96 h-96 rounded-2xl border-4 border-white overflow-hidden shadow-xl">
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-02-18_08-14-47-nFDE7KeLiPxjRWhvlTlGrmzq3IpIZ7.jpg"
                 alt="Nehmya Biruk - Full-Stack Developer & AI/ML Engineer"
