@@ -8,29 +8,7 @@ import { ImageZoomModal } from '@/components/common/image-zoom-modal';
 export function EducationSection() {
   const [selectedImage, setSelectedImage] = useState<{ src: string; alt: string } | null>(null);
 
-  const certifications = [
-    {
-      title: 'AI/ML & Data Engineering 2024-25',
-      issuer: '10 Academy',
-      date: '2024-2025',
-      image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cer-LCsa8kKypdtzVvnCpCHVZRtDoOr4hu.png',
-      skills: ['Machine Learning', 'Data Engineering', 'Python', 'TensorFlow'],
-    },
-    {
-      title: 'Data Science Learning',
-      issuer: '10 Academy',
-      date: '2025',
-      image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/da-VFEZJsUMGRjyecZrZWDqIIu2wH2hLb.png',
-      skills: ['Data Preprocessing', 'Exploratory Data Analysis', 'Model Evaluation', 'Data Visualization'],
-    },
-    {
-      title: 'AI Mastermind',
-      issuer: 'Generative AI Training Program',
-      date: '2024',
-      image: '/images/certificates/ai-mastermind.jpg',
-      skills: ['Generative AI', 'LLMs', 'Prompt Engineering', 'AI Applications'],
-    },
-  ];
+  const certifications = portfolio.certifications;
 
   return (
     <section id="education" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
