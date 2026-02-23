@@ -1,3 +1,5 @@
+import { link } from "fs"
+
 export const portfolio = {
   personal: {
     name: 'Nehmya Biruk',
@@ -80,41 +82,49 @@ export const portfolio = {
 
   projects: [
     {
+      title: 'AI Student Registration System',
+      description: 'Intelligent student registration and enrollment system with AI-powered course recommendations.',
+      technologies: ['React', 'Node.js', 'PostgreSQL', 'ML Models'],
+      github: 'https://github.com/nehmyabiruk/student-registration-ai',
+      image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/st-3iggUiKTsDv0p5sCX8aUL4uS8V5laz.png',
+    },
+    {
       title: 'AI Rental Management System',
       description: 'A comprehensive platform for managing rental properties with AI-powered features for price optimization and demand forecasting.',
       technologies: ['React', 'Next.js', 'Node.js', 'PostgreSQL', 'TensorFlow'],
       github: 'https://github.com/nehmyabiruk/ai-rental-management',
-      live: 'https://rental-user-management-frontend-sigma.vercel.app/',
+      live: 'https://rent-management-system-tau.vercel.app/',
       image: '/images/projects/rental-system.jpg',
     },
     {
-      title: 'Credit Scoring Model',
+      title: 'EthioMart Amharic NER',
+      description: 'Named Entity Recognition system for Amharic language using deep learning for e-commerce product categorization.',
+      technologies: ['Python', 'TensorFlow', 'NLP', 'Amharic Language'],
+      github: 'https://github.com/Nehmyabiruk/EthioMart-Amharic-NER',
+      image: '/images/projects/ethiomart-ner.jpg',
+    },
+    {
+      title: 'Credit Risk Model',
       description: 'Machine learning model for predicting credit scores and assessing loan eligibility based on financial data.',
       technologies: ['Python', 'Scikit-learn', 'Pandas', 'XGBoost'],
-      github: 'https://github.com/nehmyabiruk/credit-scoring-model',
+      github: 'https://github.com/Nehmyabiruk/credit-risk-model',
       image: '/images/projects/credit-scoring.jpg',
     },
     {
-      title: 'Brent Price Change Analysis',
-      description: 'Time series analysis and forecasting of Brent crude oil prices using ARIMA and machine learning models.',
+      title: 'Credtrust-Complaint-chatBot',
+      description: 'delivering a Retrieval-Augmented Generation (RAG)-powered chatbot for CredTrust Financial. The chatbot processes CFPB complaint data across Credit Cards, Personal Loans, Buy Now Pay Later (BNPL), Savings Accounts, and Money Transfers, providing actionable insights.',
       technologies: ['Python', 'Pandas', 'Matplotlib', 'Scikit-learn'],
-      github: 'https://github.com/nehmyabiruk/brent-price-analysis',
+      github: 'https://github.com/Nehmyabiruk/credtrust-complaint-chatbot.',
       image: '/images/projects/brent-price.jpg',
     },
     {
       title: 'Time Series Portfolio Optimization',
       description: 'Portfolio optimization system using time series analysis and modern portfolio theory for investment strategy.',
       technologies: ['Python', 'NumPy', 'Pandas', 'Optimization Libraries'],
-      github: 'https://github.com/nehmyabiruk/portfolio-optimization',
+      github: 'https://github.com/Nehmyabiruk/Time-Series-Forecasting-and-Portfolio-Optimization',
       image: '/images/projects/portfolio-opt.jpg',
     },
-    {
-      title: 'EthioMart Amharic NER',
-      description: 'Named Entity Recognition system for Amharic language using deep learning for e-commerce product categorization.',
-      technologies: ['Python', 'TensorFlow', 'NLP', 'Amharic Language'],
-      github: 'https://github.com/nehmyabiruk/ethiomart-ner',
-      image: '/images/projects/ethiomart-ner.jpg',
-    },
+
     {
       title: 'CredTrust Complaint Chatbot',
       description: 'AI-powered chatbot for handling customer complaints and support requests using NLP and sentiment analysis.',
@@ -126,7 +136,7 @@ export const portfolio = {
       title: 'MoonLight Energy Solutions',
       description: 'Web platform for solar energy management and optimization with real-time monitoring and analytics.',
       technologies: ['React', 'Node.js', 'MongoDB', 'Chart.js'],
-      github: 'https://github.com/nehmyabiruk/moonlight-energy',
+      github: 'https://github.com/Nehmyabiruk/MoonLight-Energy-solutions-data',
       live: 'https://moonlight-energy.vercel.app/',
       image: '/images/projects/moonlight-energy.jpg',
     },
@@ -137,13 +147,7 @@ export const portfolio = {
       github: 'https://github.com/nehmyabiruk/fraud-detection',
       image: '/images/projects/fraud-detection.jpg',
     },
-    {
-      title: 'AI Student Registration System',
-      description: 'Intelligent student registration and enrollment system with AI-powered course recommendations.',
-      technologies: ['React', 'Node.js', 'PostgreSQL', 'ML Models'],
-      github: 'https://github.com/nehmyabiruk/student-registration-ai',
-      image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/st-3iggUiKTsDv0p5sCX8aUL4uS8V5laz.png',
-    },
+
     {
       title: 'Data Visualization Dashboard',
       description: 'Interactive dashboard for real-time data visualization and business intelligence analytics.',
@@ -160,6 +164,7 @@ export const portfolio = {
       issuer: '10 Academy',
       date: '2024-2025',
       image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cer-LCsa8kKypdtzVvnCpCHVZRtDoOr4hu.png',
+      link: 'https://drive.google.com/file/d/1Jcg8OEWnz13WoplgkeMsiuid6UZbObRF/view?usp=drivesdk',
       skills: ['Machine Learning', 'Data Engineering', 'Python', 'TensorFlow'],
     },
     {
@@ -167,6 +172,7 @@ export const portfolio = {
       issuer: '10 Academy',
       date: '2025',
       image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/da-VFEZJsUMGRjyecZrZWDqIIu2wH2hLb.png',
+      link: 'https://drive.google.com/file/d/1wwYD5462HXUuoYOpm2JrMMchmxanHvL7/view?usp=drivesdk',
       skills: ['Data Preprocessing', 'Exploratory Data Analysis', 'Model Evaluation', 'Data Visualization'],
     },
     {
@@ -174,6 +180,7 @@ export const portfolio = {
       issuer: 'Generative AI Training Program',
       date: '2024',
       image: '/images/certificates/ai-mastermind.jpg',
+      link: 'https://drive.google.com/file/d/1wwYD5462HXUuoYOpm2JrMMchmxanHvL7/view?usp=drivesdk',
       skills: ['Generative AI', 'LLMs', 'Prompt Engineering', 'AI Applications'],
     },
   ],
