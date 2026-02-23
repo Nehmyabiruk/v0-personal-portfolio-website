@@ -1,5 +1,3 @@
-import { link } from "fs"
-
 export const portfolio = {
   personal: {
     name: 'Nehmya Biruk',
