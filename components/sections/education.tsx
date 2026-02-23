@@ -81,6 +81,20 @@ export function EducationSection() {
                       ))}
                     </div>
                     <p className="text-gray-500 text-xs mt-4">Click to view full certificate</p>
+                    {cert.link && (
+                      <div className="mt-3 pt-3 border-t border-gray-200">
+                        <span className="text-gray-600 text-xs font-semibold">Link: </span>
+                        <a
+                          href={cert.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-600 hover:text-blue-800 text-xs underline"
+                          onClick={(e) => e.stopPropagation()}
+                        >
+                          View on Google Drive
+                        </a>
+                      </div>
+                    )}
                   </div>
                 </div>
               ))}
