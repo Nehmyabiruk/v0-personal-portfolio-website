@@ -84,6 +84,7 @@ export const portfolio = {
       description: 'Intelligent student registration and enrollment system with AI-powered course recommendations.',
       technologies: ['React', 'Node.js', 'PostgreSQL', 'ML Models'],
       github: 'https://github.com/nehmyabiruk/student-registration-ai',
+      live: 'https://studregg.42web.io/',
       image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/st-3iggUiKTsDv0p5sCX8aUL4uS8V5laz.png',
     },
     {
