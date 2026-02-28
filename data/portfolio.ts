@@ -96,6 +96,12 @@ export const portfolio = {
       image: '/images/projects/rental-system.jpg',
     },
     {
+      title: 'Student Registration (WordPress)',
+      description: 'A web-based Student Registration System built using WordPress as the frontend and PHP as the backend. The system allows students to register online by filling out a form, and their data is stored securely in a MySQL database. Administrators can manage, view, edit, and organize student records through a dashboard. The system is user-friendly, efficient, and designed to simplify student enrollment and data management processes.',
+      technologies: ['WordPress', 'Next.js', 'Mysql', 'PHP'],
+
+    },
+    {
       title: 'EthioMart Amharic NER',
       description: 'Named Entity Recognition system for Amharic language using deep learning for e-commerce product categorization.',
       technologies: ['Python', 'TensorFlow', 'NLP', 'Amharic Language'],
