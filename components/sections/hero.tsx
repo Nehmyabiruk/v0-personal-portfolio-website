@@ -21,13 +21,13 @@ export function HeroSection() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Link
-                href="#contact"
+              <a
+                href="mailto:mimneh@gmail.com"
                 className="border-3 border-cyan-400 text-gray-900 px-8 py-3 rounded-lg font-semibold hover:bg-cyan-50 transition inline-flex flex-col items-start justify-center gap-1"
               >
                 <span className="text-lg font-bold">Let's Create Something Amazing! 🚀</span>
                 <span className="text-sm text-gray-700">Got an idea that needs a genius full-stack touch? Or maybe you need some AI/ML magic? I'm your person! Let's chat and turn your vision into reality</span>
-              </Link>
+              </a>
               <a
                 href={portfolio.personal.github}
                 target="_blank"
