@@ -87,6 +87,14 @@ export const portfolio = {
       live: 'https://studregg.42web.io/',
       image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/st-3iggUiKTsDv0p5sCX8aUL4uS8V5laz.png',
     },
+       {
+      title: 'Remittance Bank App',
+      description: 'Developed a full-stack AI-Powered Remittance Bank App with React.js and FastAPI for secure real-time money transfers, wallet management, currency conversion, and AI fraud detection.',
+      technologies: ['React', 'Node.js', 'PostgreSQL', 'ML Models'],
+      github: 'https://github.com/Nehmyabiruk/Remittance-frontend',
+      live: 'https://github.com/Nehmyabiruk/Remittance-frontend',
+      image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/st-3iggUiKTsDv0p5sCX8aUL4uS8V5laz.png',
+    },
     {
       title: 'AI Rental Management System',
       description: 'A comprehensive platform for managing rental properties with AI-powered features for price optimization and demand forecasting.',
