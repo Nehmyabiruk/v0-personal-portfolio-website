@@ -93,7 +93,7 @@ export const portfolio = {
       technologies: ['React', 'Node.js', 'PostgreSQL', 'ML Models'],
       github: 'https://github.com/Nehmyabiruk/Remittance-frontend',
       live: 'https://github.com/Nehmyabiruk/Remittance-frontend',
-      image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/st-3iggUiKTsDv0p5sCX8aUL4uS8V5laz.png',
+      image: '/images/projects/brent-price.jpg',
     },
     {
       title: 'AI Rental Management System',
