@@ -112,8 +112,7 @@ export const portfolio = {
       image: '/images/projects/rental-system.jpg',
     },
     {
-      title: 'Miracle Addis Hotel Website
-Luxury Hotel Booking Platform',
+      title: 'Miracle Addis Hotel Website Luxury Hotel Booking Platform',
       description: 'Designed and developed a sleek, fully responsive website for Dire Dawa Ras Hotel, a historic 4-star hotel in Dire Dawa, Ethiopia. The site features an elegant UI with smooth navigation, showcasing luxurious rooms & suites, multiple dining options, world-class facilities, event venues, and an easy booking request system..',
       technologies: ['Built with Next.js / React + Tailwind CSS (generated via v0)'],
       github: 'https://github.com/Nehmyabiruk/dire-dawa-ras-hotel',
