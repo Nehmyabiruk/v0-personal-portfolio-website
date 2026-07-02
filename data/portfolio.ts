@@ -85,7 +85,7 @@ export const portfolio = {
       technologies: ['React JS', 'TypeScript'],
       github: 'https://github.com/nehmyabiruk/amen-pictures',
       live: 'https://amen-pictures-usa.vercel.app/',
-      image: '/images/projects/amen-pictures.jpg',
+      image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-eRkkCoMvoCUbsgPV7FWGMWgHgBofmV.png',
     },
     {
       title: 'AI Student Registration System',
