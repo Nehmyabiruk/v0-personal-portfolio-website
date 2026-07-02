@@ -83,8 +83,8 @@ export const portfolio = {
       title: 'Amen Pictures USA',
       description: 'Full-stack web platform built for a US-based photography studio, featuring a modern, responsive interface and a robust backend for managing client bookings and gallery content.',
       technologies: ['React JS', 'TypeScript'],
-      github: 'https://github.com/nehmyabiruk/amen-pictures',
-      live: 'https://amen-pictures-usa.vercel.app/',
+      github: 'https://photo-booking-website-vjra-r0b8b5p8l-mimneh-3704s-projects.vercel.app/',
+      live: 'https://photo-booking-website-vjra-r0b8b5p8l-mimneh-3704s-projects.vercel.app/',
       image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-eRkkCoMvoCUbsgPV7FWGMWgHgBofmV.png',
     },
     {
