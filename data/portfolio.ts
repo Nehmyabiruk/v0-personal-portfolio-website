@@ -80,6 +80,14 @@ export const portfolio = {
 
   projects: [
     {
+      title: 'Amen Pictures USA',
+      description: 'Full-stack web platform built for a US-based photography studio, featuring a modern, responsive interface and a robust backend for managing client bookings and gallery content.',
+      technologies: ['React JS', 'TypeScript'],
+      github: 'https://github.com/nehmyabiruk/amen-pictures',
+      live: 'https://amen-pictures-usa.vercel.app/',
+      image: '/images/projects/amen-pictures.jpg',
+    },
+    {
       title: 'AI Student Registration System',
       description: 'Intelligent student registration and enrollment system with AI-powered course recommendations.',
       technologies: ['React', 'Node.js', 'PostgreSQL', 'ML Models'],
