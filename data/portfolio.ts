@@ -1,8 +1,8 @@
 export const portfolio = {
   personal: {
     name: 'Nehmya Biruk',
-    title: 'Full-Stack Developer & AI/ML Engineer',
-    tagline: 'Building intelligent applications that solve real-world problems',
+    title: 'AI/ML Engineer',
+    tagline: 'Building intelligent AI and machine learning systems that solve real-world problems',
     email: 'mimneh@gmail.com',
     phone: '+251 901723123',
     location: 'Addis Ababa, Ethiopia',
@@ -11,44 +11,41 @@ export const portfolio = {
   },
 
   about: {
-    bio: `I'm a Full-Stack Developer and AI/ML Engineer with a strong background in Computer Science. 
-    I specialize in building scalable web applications and developing machine learning solutions that 
-    transform data into actionable insights. My expertise spans both frontend and backend technologies, 
-    combined with advanced AI/ML capabilities.`,
-    bio2: `I have successfully completed intensive training programs in AI/ML and Data Engineering from 
-    10 Academy, giving me the latest knowledge in cutting-edge technologies. I'm passionate about 
-    developing innovative solutions and continuously learning new technologies to stay ahead in this 
-    fast-paced field.`,
+    bio: `I'm an AI/ML Engineer focused on building and deploying intelligent systems that solve real-world problems. I specialize in developing end-to-end machine learning and AI solutions, from data processing and feature engineering to model development, evaluation, deployment, and monitoring.My work spans predictive modeling, time-series forecasting, LLM applications, Retrieval-Augmented Generation (RAG), and AI-powered developer tools. I work with Python, Scikit-learn, XGBoost, TensorFlow, FastAPI, PostgreSQL, pgvector, LangChain, and modern LLM technologies to turn data and models into practical, production-ready applications.`,
+
+    bio2: `I'm particularly interested in the intersection of machine learning and modern generative AI—building systems that are not only accurate, but also reliable, scalable, explainable, and useful in real-world environments.I'm continuously expanding my expertise in AI engineering, MLOps, LLM systems, and intelligent automation, with the goal of contributing to ambitious AI/ML teams and building technology that creates measurable impact.`
   },
+
 
   services: [
     {
-      icon: '💻',
-      title: 'Full-Stack Web Development',
-      description: 'Building responsive, scalable web applications using modern frameworks and technologies like React, Next.js, Node.js, and PostgreSQL.',
+      icon: '🤖 ',
+      title: 'Artificial Intelligence & Generative AI',
+      description: 'Building intelligent AI systems using Large Language Models, RAG, AI agents, embeddings, vector databases, prompt engineering, and intelligent automation to solve complex real-world problems.',
     },
     {
-      icon: '🤖',
-      title: 'AI/ML Solutions',
-      description: 'Developing machine learning models for predictive analytics, NLP, computer vision, and implementing AI-powered features in applications.',
+      icon: '🧠',
+      title: 'Machine Learning Engineering',
+      description: 'Designing and deploying machine learning solutions for prediction, classification, forecasting, anomaly detection, and decision-making using modern ML algorithms and frameworks.',
     },
     {
-      icon: '📊',
-      title: 'Data Engineering',
-      description: 'Designing and building data pipelines, data warehouses, and ETL processes for efficient data processing and analytics.',
+      icon: '🔍',
+      title: 'LLM & RAG Systems',
+      description: 'Developing context-aware AI applications that connect LLMs with private and domain-specific knowledge using retrieval, semantic search, embeddings, vector databases, and advanced RAG architectures.',
     },
     {
       icon: '⚙️',
-      title: 'Backend Development',
-      description: 'Creating robust APIs, microservices, and server-side solutions with focus on performance, security, and scalability.',
+      title: 'Production AI Engineering',
+      description: 'Taking AI from prototype to production by building reliable APIs, model-serving systems, evaluation pipelines, monitoring, and scalable AI infrastructure using technologies such as Python, FastAPI, PostgreSQL, Docker, and cloud platforms.',
     },
   ],
 
   skills: [
+    { category: 'Generative AI', items: ['LLMs', 'RAG', 'AI Agents', 'LangChain', 'LangGraph', 'Prompt Engineering', 'Embeddings', 'Semantic Search', 'Vector Databases', 'pgvector', 'LLM Evaluation'] },
+    { category: 'Machine Learning', items: ['Scikit-learn', 'XGBoost', 'TensorFlow', 'Classification', 'Regression', 'Time-Series Forecasting', 'Feature Engineering', 'Model Evaluation', 'SHAP', 'Pandas', 'NumPy', 'Matplotlib'] },
+    { category: 'AI Engineering', items: ['Python', 'FastAPI', 'REST APIs', 'PostgreSQL', 'Docker', 'Model Serving', 'Model Deployment', 'Cloud Deployment', 'Git', 'GitHub'] },
     { category: 'Frontend', items: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'HTML/CSS'] },
-    { category: 'Backend', items: ['Node.js', 'Python', 'Express.js', 'FastAPI', 'PostgreSQL'] },
-    { category: 'ML/AI', items: ['TensorFlow', 'Scikit-learn', 'Pandas', 'NumPy', 'Matplotlib'] },
-    { category: 'Tools', items: ['Git', 'Docker', 'AWS', 'Jupyter', 'VS Code'] },
+    { category: 'Development Tools', items: ['Jupyter', 'VS Code', 'Git', 'Docker'] },
   ],
 
   experience: [
@@ -59,26 +56,72 @@ export const portfolio = {
       description: 'Developing and maintaining web applications for various clients. Working with React, Next.js, and Node.js.',
     },
     {
-      title: 'Junior Software Engineer',
-      company: 'Digital Innovation Hub',
-      period: '2023 - 2024',
-      description: 'Contributed to the development of scalable web applications and learned best practices in software development.',
-    },
-    {
       title: 'Freelance Developer',
-      company: 'Self-Employed',
-      period: '2022 - 2023',
-      description: 'Developed multiple web projects for clients, focusing on responsive design and optimal performance.',
+      company: 'Amen Pictures',
+      period: '2023 - Present',
+      description: 'Designed and developed a production web application for Amen Pictures, focusing on responsive design, performance, and a seamless user experience.',
     },
     {
-      title: 'Intern - Web Development',
-      company: 'StartUp Tech',
-      period: '2021 - 2022',
-      description: 'Assisted in developing frontend features and learned modern web development practices.',
+      title: 'AI/ML Engineer — Independent Projects',
+      company: 'Independent',
+      period: '2024 - Present',
+      description: 'Building end-to-end AI/ML and Generative AI systems, including predictive models, time-series forecasting, LLM/RAG applications, and AI-powered developer tools.',
+    },
+    {
+      title: 'AI/ML Training & Projects',
+      company: 'Kifiya / TenX Academy',
+      period: '2024 - Present',
+      description: 'Completed practical AI/ML training and applied machine learning concepts including data preprocessing, feature engineering, model development, evaluation, and deployment through hands-on projects.',
+    },
+    {
+      title: 'Independent AI/ML Developer',
+      company: 'Personal Projects',
+      period: '2024 - Present',
+      description: 'Developing practical AI/ML projects to build production-oriented experience across machine learning, Generative AI, RAG systems, model evaluation, and intelligent applications.',
     },
   ],
 
   projects: [
+    {
+      title: 'AI/ML Copilot',
+      category: 'Generative AI',
+      description: 'An AI-powered developer assistant that uses LLMs, RAG, embeddings, semantic search, and vector databases to understand codebases and provide context-aware answers.',
+      stats: ['LLM', 'RAG', 'pgvector', 'FastAPI'],
+      technologies: ['Python', 'FastAPI', 'LangChain', 'PostgreSQL', 'pgvector', 'Sentence Transformers'],
+      live: 'https://ai-ml-copilot-frontend.onrender.com/',
+      github: 'https://github.com/Nehmyabiruk/ai-ml-copilot',
+      image: '/images/projects/ai-ml-copiolt.png',
+    },
+    {
+      title: 'Model Regression Detector',
+      category: 'AI/ML Engineering',
+      description: 'An automated ML evaluation and regression detection system designed to identify performance degradation between model versions using configurable evaluation metrics and intelligent analysis.',
+      stats: ['Automated Evaluation', 'Regression Detection', 'ML Monitoring', 'XGBoost'],
+      technologies: ['Python', 'Scikit-learn', 'XGBoost', 'Pydantic', 'Pytest', 'FastAPI'],
+      live: 'https://model-regression-detector-frontend.onrender.com/',
+      github: 'https://github.com/Nehmyabiruk/model-regression-detector',
+      image: '/images/projects/model-regression.png',
+    },
+    {
+      title: 'Credit Risk Model',
+      category: 'Machine Learning',
+      description: 'An explainable machine learning system for predicting credit risk, comparing multiple classification algorithms and providing model interpretability for risk-based decisions.',
+      stats: ['ROC-AUC 0.9807', 'PR-AUC 0.9462', '4+ ML Models', 'XGBoost'],
+      technologies: ['Python', 'Scikit-learn', 'XGBoost', 'SHAP', 'Pandas', 'NumPy', 'FastAPI'],
+      live: 'https://credit-risk-predictor-frontend-dn0q.onrender.com/',
+      github: 'https://github.com/Nehmyabiruk/credit-risk-predictor',
+      image: '/images/projects/credit-risk.png',
+    },
+    {
+      title: 'Ethiopian Commodity Price Prediction',
+      category: 'AI/ML & Forecasting',
+      description: 'A machine learning forecasting system for predicting Ethiopian commodity prices using historical market data, feature engineering, and time-series modeling to support data-driven market decisions.',
+      stats: ['R² 0.9061', 'MAPE 7.12%', 'MAE 329.32', '3 Models Compared'],
+      technologies: ['Python', 'XGBoost', 'Scikit-learn', 'Pandas', 'NumPy', 'Time-Series', 'Weather API'],
+      live: 'https://ethiopia-commodity-price-prediction.onrender.com/',
+      github: 'https://github.com/Nehmyabiruk/ethiopia-commodity-price-prediction',
+      image: '/images/projects/commodity-price.png',
+    },
     {
       title: 'Amen Pictures USA',
       description: 'Full-stack web platform built for a US-based photography studio, featuring a modern, responsive interface and a robust backend for managing client bookings and gallery content.',
@@ -95,14 +138,7 @@ export const portfolio = {
       live: 'https://studregg.42web.io/',
       image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/st-3iggUiKTsDv0p5sCX8aUL4uS8V5laz.png',
     },
-    {
-      title: 'Remittance Bank App',
-      description: 'Developed a full-stack AI-Powered Remittance Bank App with React.js and FastAPI for secure real-time money transfers, wallet management, currency conversion, and AI fraud detection.',
-      technologies: ['React', 'Node.js', 'PostgreSQL', 'ML Models'],
-      github: 'https://github.com/Nehmyabiruk/Remittance-frontend',
-      live: 'https://github.com/Nehmyabiruk/Remittance-frontend',
-      image: '/images/projects/brent-price.jpg',
-    },
+
     {
       title: 'AI Rental Management System',
       description: 'A comprehensive platform for managing rental properties with AI-powered features for price optimization and demand forecasting.',
@@ -112,41 +148,11 @@ export const portfolio = {
       image: '/images/projects/rental-system.jpg',
     },
     {
-      title: 'Modern Hotel Booking & Showcase Website',
-      description: 'Designed and developed a sleek, fully responsive website for Dire Dawa Ras Hotel, a historic 4-star hotel in Dire Dawa, Ethiopia. The site features an elegant UI with smooth navigation, showcasing luxurious rooms & suites, multiple dining options, world-class facilities, event venues, and an easy booking request system..',
-      technologies: ['Built with Next.js / React + Tailwind CSS (generated via v0)'],
-      github: 'https://github.com/Nehmyabiruk/dire-dawa-ras-hotel',
-      live: 'https://v0-dire-dawa-ras-hotel.vercel.app/',
-      image: '/images/projects/rental-system.jpg',
-    },
-    {
-      title: 'Miracle Addis Hotel Website Luxury Hotel Booking Platform',
-      description: 'Designed and developed a sleek, fully responsive website for Dire Dawa Ras Hotel, a historic 4-star hotel in Dire Dawa, Ethiopia. The site features an elegant UI with smooth navigation, showcasing luxurious rooms & suites, multiple dining options, world-class facilities, event venues, and an easy booking request system..',
-      technologies: ['Built with Next.js / React + Tailwind CSS (generated via v0)'],
-      github: 'https://github.com/Nehmyabiruk/dire-dawa-ras-hotel',
-      live: 'www.miracleaddis.com',
-      image: '/images/projects/rental-system.jpg',
-    },
-
-    {
-      title: 'Student Registration (WordPress)',
-      description: 'A web-based Student Registration System built using WordPress as the frontend and PHP as the backend. The system allows students to register online by filling out a form, and their data is stored securely in a MySQL database. Administrators can manage, view, edit, and organize student records through a dashboard. The system is user-friendly, efficient, and designed to simplify student enrollment and data management processes.',
-      technologies: ['WordPress', 'Next.js', 'Mysql', 'PHP'],
-      image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-02-28%20055822-kQO6GMdcFu19fVjt0sagHHqvWYJf2T.png',
-    },
-    {
       title: 'EthioMart Amharic NER',
       description: 'Named Entity Recognition system for Amharic language using deep learning for e-commerce product categorization.',
       technologies: ['Python', 'TensorFlow', 'NLP', 'Amharic Language'],
       github: 'https://github.com/Nehmyabiruk/EthioMart-Amharic-NER',
       image: '/images/projects/ethiomart-ner.jpg',
-    },
-    {
-      title: 'Credit Risk Model',
-      description: 'Machine learning model for predicting credit scores and assessing loan eligibility based on financial data.',
-      technologies: ['Python', 'Scikit-learn', 'Pandas', 'XGBoost'],
-      github: 'https://github.com/Nehmyabiruk/credit-risk-model',
-      image: '/images/projects/credit-scoring.jpg',
     },
     {
       title: 'Credtrust-Complaint-chatBot',
@@ -161,14 +167,6 @@ export const portfolio = {
       technologies: ['Python', 'NumPy', 'Pandas', 'Optimization Libraries'],
       github: 'https://github.com/Nehmyabiruk/Time-Series-Forecasting-and-Portfolio-Optimization',
       image: '/images/projects/portfolio-opt.jpg',
-    },
-
-    {
-      title: 'CredTrust Complaint Chatbot',
-      description: 'AI-powered chatbot for handling customer complaints and support requests using NLP and sentiment analysis.',
-      technologies: ['Python', 'NLP', 'FastAPI', 'React'],
-      github: 'https://github.com/nehmyabiruk/credtrust-chatbot',
-      image: '/images/projects/credtrust-chatbot.jpg',
     },
     {
       title: 'MoonLight Energy Solutions',
@@ -226,10 +224,11 @@ export const portfolio = {
   education: [
     {
       degree: 'Bachelor of Science in Computer Science',
-      school: 'University (Expected Graduation: 2025)',
-      description: 'Strong foundation in computer science principles, algorithms, and software engineering.',
+      school: 'Unity University',
+      period: '2021 - 2025',
+      description: 'Built a strong foundation in computer science, algorithms, software engineering, databases, and artificial intelligence, graduating with a 3.53 CGPA and 3.70 major GPA while developing a strong focus on AI and machine learning.',
     },
-  ],
+  ]
 }
 
 export type Portfolio = typeof portfolio
